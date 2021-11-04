@@ -1,0 +1,29 @@
+ # Learning to use IDLE
+ # CTI-110
+ # P1HW2 - Basic Math
+ # O'Brien Fleming
+ # 11/4/2021
+ #
+ nameofExpense = input('Name of expense:')
+Name of expense: Rent
+ monthlyCharge = input('Monthly Charge:')
+Monthly Charge: 1200
+
+ monthlyTax=float(monthlyCharge)*(0)
+ monthlyCharge=float(float(monthlyTax) + float(monthlyCharge))
+ annualCharge=float(float(monthlyCharge)*12)
+
+ print("Bill: "+str(nameofExpense)+" --------- Before Tax: $"+format(float(monthlyCharge),".2f"))
+Bill:  Rent --------- Before Tax: $1200.00
+ 
+print("Monthly Tax: $"+format(monthlyTax,".2f"))
+Monthly Tax: $0.00
+
+print("Monthly Charge: $"+format(monthlyCharge,".2f"))
+Monthly Charge: $1200.00
+
+print("Annual Charge: $"+format(annualCharge,".2f"))
+Annual Charge: $14400.00
+
+
+
