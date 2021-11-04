@@ -1,0 +1,40 @@
+# CTI-110
+ # P2HW2 - List and Sets
+ # O'Brien Fleming
+ # 11/4/2021
+ #
+ # Create a series of numbers
+ num1=float(input('Enter num1:'))
+Enter num1:6
+ num2=float(input('Enter num2:'))
+Enter num2:8
+ num3=float(input('Enter num3:'))
+Enter num3:5
+ num4=float(input('Enter num4:'))
+Enter num4:7
+ num5=float(input('Enter num5:'))
+Enter num5:2
+ num6=float(input('Enter num6:'))
+Enter num6:3
+
+ print()
+
+ numList=[num1, num2, num3, num4, num5, num6]
+ print('Smallest number in list:', min(numList))
+Smallest number in list: 2.0
+ print('Highest number in list:', max(numList))
+Highest number in list: 8.0
+ print('Sum of numbers', sum(numList))
+Sum of numbers 31.0
+ print('Average of numbers in list', sum(numList) / len(numList))
+Average of numbers in list 5.166666666666667
+
+ print()
+
+ numSet=set(numList)
+ print('Create Set')
+Create Set
+ print(numSet)
+{2.0, 3.0, 5.0, 6.0, 7.0, 8.0}
+
+
